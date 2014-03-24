@@ -1,0 +1,19 @@
+{
+    "name": "alexmorbo/morbosms",
+    "description": "Connect to Morbo sms gate",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Morbo",
+            "email": "alex@morbo.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Morbosms\\": "lib/"
+        }
+    }
+}
